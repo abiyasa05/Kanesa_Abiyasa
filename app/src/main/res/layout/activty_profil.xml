@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:id="@+id/rellayl"
+            android:layout_width="match_parent"
+            android:background="@drawable/grad"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+                android:id="@+id/imgUser"
+                android:layout_width="match_parent"
+                android:background="@drawable/circle_border"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/sasuke"
+                    android:layout_margin="9dp"
+                    android:padding="3dp"
+                    android:background="@drawable/circle"
+                    android:adjustViewSounds="true"
+                    android:scaleType="centerInside"/>
+
+
+        </RelativeLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgUser"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:layout_marginTop="15sp"
+                android:text="Abiyasa Putra Prasetya"
+                android:textSize="32dp"
+                android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:background="@color/followersBg"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp"
+                    android:layout_margin="@id/rellayl">
+
+            </LinearLayout>
+
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="followers"
+                        android:textSize="13sp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>

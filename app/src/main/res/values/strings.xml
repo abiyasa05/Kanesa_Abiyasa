@@ -1,0 +1,17 @@
+<resources>
+    <string name ="app_name">Projekku</string>
+    <string name ="Indnesia">Indonesia</string>
+    <string name ="Jepang">Jepang</string>
+    <string name ="Inggris">Inggris</string>
+    <string name ="Arab">Arab</string>
+    <string name ="Jawa">Jawa</string>
+    <string name ="Mandarin">Mandarin</string>
+    
+    <string-array name="negaraAsal">
+        <item>Indonesia</item>
+        <item>Jepang</item>
+        <item>Inggris</item>
+        <item>China</item>
+        <item>Arab</item>
+    </string-array>
+</resources>
